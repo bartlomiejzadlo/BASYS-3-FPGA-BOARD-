@@ -1,0 +1,25 @@
+Warnings, critical warnings and errors from synthesis and implementation
+
+Created: 2023-06-01 19:26:27
+
+----SYNTHESIS----
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-7071] port 'empty' of module 'fifo' is unconnected for instance 'fifo_rx_unit' [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-7071] port 'full' of module 'fifo' is unconnected for instance 'fifo_rx_unit' [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-7023] instance 'fifo_rx_unit' of module 'fifo' has 8 connections declared, but only 6 given [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-3848] Net rx_done_tick in module/entity uart does not have driver. [rtl/list_ch08_04_uart.v:24]
+WARNING: [Synth 8-7071] port 'tx_start' of module 'uart' is unconnected for instance 'u_uart' [fpga/rtl/top_vga_basys3.sv:74]
+WARNING: [Synth 8-7023] instance 'u_uart' of module 'uart' has 7 connections declared, but only 6 given [fpga/rtl/top_vga_basys3.sv:74]
+WARNING: [Synth 8-7129] Port dp_in[3] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[2] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[1] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[0] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-6014] Unused sequential element fifo_rx_unit/array_reg_reg was removed. 
+WARNING: [Synth 8-7129] Port dp_in[3] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[2] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[1] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[0] in module disp_hex_mux is either unconnected or has no load
+
+----IMPLEMENTATION----
+CLEAR :)
