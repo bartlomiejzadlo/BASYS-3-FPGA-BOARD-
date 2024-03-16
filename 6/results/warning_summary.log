@@ -1,0 +1,17 @@
+Warnings, critical warnings and errors from synthesis and implementation
+
+Created: 2023-06-01 17:12:40
+
+----SYNTHESIS----
+WARNING: [Synth 8-7071] port 'empty' of module 'fifo' is unconnected for instance 'fifo_rx_unit' [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-7071] port 'full' of module 'fifo' is unconnected for instance 'fifo_rx_unit' [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-7023] instance 'fifo_rx_unit' of module 'fifo' has 8 connections declared, but only 6 given [rtl/list_ch08_04_uart.v:35]
+WARNING: [Synth 8-7129] Port dp_in[3] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[2] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[1] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp_in[0] in module disp_hex_mux is either unconnected or has no load
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design top_vga_basys3 has port sseg[7] driven by constant 1
+
+----IMPLEMENTATION----
+CLEAR :)
