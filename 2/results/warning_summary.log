@@ -1,0 +1,34 @@
+Warnings, critical warnings and errors from synthesis and implementation
+
+Created: 2023-03-23 15:42:30
+
+----SYNTHESIS----
+WARNING: [Synth 8-3848] Net out\.rgb in module/entity vga_timing does not have driver. [rtl/vga_timing.sv:15]
+WARNING: [Synth 8-7129] Port in\.rgb[11] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[10] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[9] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[8] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[7] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[6] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[5] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[4] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[3] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[2] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[1] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in\.rgb[0] in module draw_bg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[11] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[10] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[9] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[8] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[7] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[6] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[5] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[4] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[3] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[2] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[1] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port out\.rgb[0] in module vga_timing is either unconnected or has no load
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+
+----IMPLEMENTATION----
+CLEAR :)
